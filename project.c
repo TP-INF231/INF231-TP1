@@ -1,18 +1,9 @@
-/* ds.c
-   Programme C : opérations sur tableaux, vecteurs et matrices
-   Auteur : généré par ChatGPT
-   Compilation : gcc -o ds ds.c -std=c11
-*/
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
-/* ============================================================
-   =========   PARTIE 1 : UTILITAIRES DE BASE   ================
-   ============================================================ */
 
-/* Allouer dynamiquement un vecteur (tableau 1D de taille n) */
 double *alloc_vector(int n) {
     return (double*)malloc(sizeof(double)*n);
 }
@@ -30,9 +21,6 @@ void free_matrix(double **M, int rows) {
     free(M);
 }
 
-/* ============================================================
-   =========   PARTIE 2 : FONCTIONS DE CALCUL   ================
-   ============================================================ */
 
 /* 1. Somme de matrices A + B */
 double **matrix_sum(double **A, double **B, int rows, int cols) {
@@ -137,9 +125,6 @@ double *vector_times_matrix(double *v, int n, double **M, int r, int c) {
     return res;
 }
 
-/* ============================================================
-   =========   PARTIE 3 : FONCTIONS I/O (ENTRÉE/SORTIE) ========
-   ============================================================ */
 
 /* Saisie d’une matrice */
 void input_matrix(double **M, int rows, int cols) {
@@ -178,15 +163,12 @@ void pause_and_flush() {
     getchar(); getchar();
 }
 
-/* ============================================================
-   =========   PARTIE 4 : PROGRAMME PRINCIPAL (MENU) ===========
-   ============================================================ */
 
 int main() {
     int choix = 0;
     while (1) {
         // Affichage du menu principal
-        printf("\n--- MENU : Structures de données (C) ---\n");
+        printf("\n--- MENU : Structures de données en C ---\n");
         printf("1. Somme de matrices\n");
         printf("2. Produit de matrices\n");
         printf("3. Recherche séquentielle dans un tableau\n");
