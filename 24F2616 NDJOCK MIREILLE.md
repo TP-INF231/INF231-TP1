@@ -1,9 +1,9 @@
-#Cahier de suivi- 24F2616
+# Cahier de suivi- 24F2616
 
-##INFORMATION PERSONNELLES
+## INFORMATION PERSONNELLES
 Matricule:24F2616
 NOM ET PRENOM: NDJOCK MIREILLE GLADICE
 
-##Sceance du 18/09/2025
+## Sceance du 18/09/2025
 Taches realisees
 - Tester si un tableau est trier
