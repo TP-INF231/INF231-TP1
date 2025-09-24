@@ -1,10 +1,10 @@
-#Cahier de suivi- POUAMOUN 
+# Cahier de suivi- POUAMOUN 
 
-##INFORMATION PERSONNELLES
+## INFORMATION PERSONNELLES
 Matricule:
 NOM ET PRENOM:POUAMOUN FREED ARNOLD 
 
-##Sceance du 18/09/2025
+## Sceance du 18/09/2025
 Taches realisees
 - Produit vectorielle
 - Produit matrices
